@@ -31,7 +31,7 @@
 # Import-Module PnP.PowerShell
 
 # Récupération des variables d'environnement
-$SiteURL = "https://gasafr.sharepoint.com/sites/PRJ-DatavizParkingNiwa/"
+$SiteURL = "https://machinfr.sharepoint.com/sites/machin/"
 $Username = "lUtilisateur" # Remplacer par le nom de votre utilisateur
 $Password = "leMotDePasse" # Remplacer par le mot de passe de votre utilisateur
 
@@ -52,9 +52,9 @@ $FolderURLCsv = "Documents partages/General/01 - Sources/02 - Barriere"
 $CurrentDate = Get-Date
 
 # Chemin du fichier local .dat
-$FilePathDat = "C:\vb5\gapeo\ser\configk\ficheCle.dat"
+$FilePathDat = "C:\chemin\vers\fichier\dat"
 # Chemin du répertoire contenant les fichiers .csv
-$FolderPathCsv = "C:\vb5\gapeo\ser\memact"
+$FolderPathCsv = "C:\chemin\vers\fichiers\csv"
 
 # Transfert du fichier .dat
 if (Test-Path $FilePathDat) {
